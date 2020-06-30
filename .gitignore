@@ -22,6 +22,17 @@ local.properties
 .loadpath
 .recommenders
 
+
+git rm --cached -r adminpage/.metadata
+echo "adminpage/.metadata/" >> .gitginore
+git add .gitignore
+git commit -m "remote and ignore adminpage/.metadata"
+git push
+
+
+
+
+
 # External tool builders
 .externalToolBuilders/
 
