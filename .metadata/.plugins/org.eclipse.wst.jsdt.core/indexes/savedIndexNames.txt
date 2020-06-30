@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\BIT02-02\Documents\GitHub\bitcamp\JSP\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2292798025.index
+2158408696.index
+1303626285.index
+4241622248.index
+549848486.index
+3371219774.index

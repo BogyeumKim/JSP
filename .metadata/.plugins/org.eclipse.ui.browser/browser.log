@@ -1,0 +1,4 @@
+
+6월 29, 2020 17:21:51.22 NEW SESSION
+6월 29, 2020 17:21:51.22 [2328:7184:0629/172151.224:ERROR:CONSOLE(0)] "Error handling response: TypeError: Cannot read property 'always' of undefined
+6월 29, 2020 17:21:51.22     at chrome-extension://cnfngpgfjllafbghaimjcmailafcdhod/releaseDrag.js:90:49", source: https://ogs.google.com/u/0/widget/app?gm2&origin=chrome-search%3A%2F%2Flocal-ntp&pid=1&spid=243&hl=ko&gm= (0)
