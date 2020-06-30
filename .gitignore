@@ -8,7 +8,7 @@ Servers/
 
 
 ### Eclipse ###
-.metadata
+.metadata/
 bin/
 tmp/
 *.tmp
