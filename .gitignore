@@ -9,7 +9,8 @@ Servers/
 
 ### Eclipse ###
 .metadata
-.metadata/
+.metadata/.plugins/
+.metadata\.plugins
 .plugins
 bin/
 tmp/
@@ -120,3 +121,4 @@ hs_err_pid*
 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.web.core.prefs
 .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
 .metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat
+*.dat
