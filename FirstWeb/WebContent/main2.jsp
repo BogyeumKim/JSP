@@ -35,10 +35,10 @@ float:right;
 	<%@ include file="include/news.jsp" %>
 	<%@ include file="include/shopping.jsp" %>
 	</div>	
-	<jsp:include page="include/footer.jsp">
+	<jsp:forward page="include/footer.jsp">
 	<jsp:param value="cool@gmail.com" name="email"/>
 	<jsp:param value="01055142124" name="tel"/>
-	</jsp:include>
+	</jsp:forward>
 
 </body>
 </html>

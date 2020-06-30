@@ -8,7 +8,9 @@ Servers/
 
 
 ### Eclipse ###
+.metadata
 .metadata/
+.plugins
 bin/
 tmp/
 *.tmp
@@ -102,4 +104,5 @@ local.properties
 hs_err_pid*
 
 # End of https://www.gitignore.io/api/java,eclipse
-.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+*.snap
+*.snap
