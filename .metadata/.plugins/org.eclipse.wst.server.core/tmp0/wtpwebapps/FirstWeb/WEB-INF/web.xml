@@ -9,4 +9,18 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+<servlet>
+ <servlet-name>testServlet</servlet-name>
+ <servlet-class>test.NowServlet</servlet-class>
+</servlet>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>testServlet</servlet-name>
+ <!--  http://localhost:8080/hello -->
+<url-pattern>/hello</url-pattern>
+ </servlet-mapping>
+  
+  
 </web-app>
