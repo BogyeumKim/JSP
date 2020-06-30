@@ -6,6 +6,10 @@
 # Server Path
 Servers/
 
+# gitignore
+
+.metadata/
+
 
 ### Eclipse ###
 .metadata
