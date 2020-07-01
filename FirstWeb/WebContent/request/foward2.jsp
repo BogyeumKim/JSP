@@ -1,17 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%
-	request.setCharacterEncoding("utf-8");
-%>
+   
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>사용자의 요청정보 출력</title>
+<title>Insert title here</title>
 </head>
 <body>
 
-	<h1>전송 결과</h1>
+<h1>전송 결과</h1>
 	<hr>
 	<table border="1">
 		<tr>
@@ -59,16 +57,6 @@
 		
 		</Tr>
 	</table>
-
-
-
-<jsp:forward page="foward2.jsp"></jsp:forward>
-
-
-
-
-
-
 
 </body>
 </html>
