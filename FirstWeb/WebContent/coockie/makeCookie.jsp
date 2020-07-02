@@ -3,9 +3,11 @@
     
     <%
     Cookie c = new Cookie("uid","COOL");
+    c.setMaxAge(60);
+    
     response.addCookie(c);
     
-    Cookie c2 = new Cookie("uname","hot");
+    Cookie c2 = new Cookie("uname","김보겸");
     response.addCookie(c2);
     %>
     
@@ -19,5 +21,6 @@
 <body>
 <h1>쿠키 생성 </h1>
 
+<a href="viewCookie.jsp">쿠키 확인</a>
 </body>
 </html>
