@@ -1,5 +1,21 @@
+<%@page import="model.MemberInfo"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+     <%
+    
+    MemberInfo memberInfo = (MemberInfo)session.getAttribute("memberInfo");
+    
+    if(memberInfo==null){%>
+    <script>
+    	alert('로그인먼저 하세요');
+    	location.href='../member/loginForm.jsp';
+    	
+    	</script>
+    	<%
+    }
+    %>
+    
 <!DOCTYPE html>
 <html>
 <head>
