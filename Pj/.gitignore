@@ -1,1 +1,178 @@
-/build/
+
+# Created by https://www.gitignore.io/api/java,eclipse
+# Edit at https://www.gitignore.io/?templates=java,eclipse
+
+
+# Server Path
+Servers/
+
+# gitignore
+
+.metadata/
+
+
+### Eclipse ###
+.metadata
+.metadata\.plugins
+.metadata\.plugins\org
+.plugins
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+
+git rm --cached -r adminpage/.metadata
+echo "adminpage/.metadata/" >> .gitginore
+git add .gitignore
+git commit -m "remote and ignore adminpage/.metadata"
+git push
+
+
+
+
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# CDT- autotools
+.autotools
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Annotation Processing
+.apt_generated/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
+### Eclipse Patch ###
+# Eclipse Core
+.project
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Annotation Processing
+.apt_generated
+
+.sts4-cache/
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# End of https://www.gitignore.io/api/java,eclipse
+*.snap
+*.snap
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.web.core.prefs
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat
+*.dat
+*.xmi
+.metadata/.log
+.metadata/.plugins/org.eclipse.core.resources/.projects/FirstWeb/.indexes/5b/history.index
+.metadata/.plugins/org.eclipse.core.resources/.projects/FirstWeb/.markers
+.metadata/.plugins/org.eclipse.core.resources/.projects/FirstWeb/.markers.snap
+.metadata/.plugins/org.eclipse.core.resources/.projects/FirstWeb/.syncinfo.snap
+.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.indexes/c7/history.index
+.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.markers.snap
+.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.syncinfo.snap
+.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+.metadata/.plugins/org.eclipse.core.resources/.root/3.tree
+.metadata/.plugins/org.eclipse.core.resources/.root/4.tree
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+.metadata/.plugins/org.eclipse.core.resources/3.snap
+.metadata/.plugins/org.eclipse.core.resources/4.snap
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.html.ui.prefs
+.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+.metadata/.plugins/org.eclipse.jdt.core/946628354.index
+.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+.metadata/.plugins/org.eclipse.jdt.core/participantsIndexNames.txt
+.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+.metadata/.plugins/org.eclipse.jst.j2ee.web/webLibrariesCache.index
+.metadata/.plugins/org.eclipse.jst.j2ee/earLibrariesCache.index
+.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2566316400.index
+.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+.metadata/.plugins/org.eclipse.ui.browser/browser.log
+.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps
+.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/1303626285.index
+.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt
+.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat
+.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat
+.metadata/.plugins/org.eclipse.wst.server.core/servers.xml
+.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/server.xml
+.metadata/.plugins/org.eclipse.wst.server.core/tmp0/logs/localhost_access_log.2020-06-30.txt
+.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/FirstWeb/include/header.jsp
+.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/FirstWeb/include/shopping.jsp
+.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/FirstWeb/main.jsp
+.metadata/.plugins/org.eclipse.wst.validation/dep.index
+.metadata/version.ini
+.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+*.log
