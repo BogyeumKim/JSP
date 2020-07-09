@@ -23,6 +23,38 @@
  </servlet-mapping>
   
   
+  
+  <!-- 데이터베이스 드라이버 로드 -->
+<!--   <servlet>
+  <servlet-name>Loader</servlet-name>
+  <servlet-class>jdbc.Loader</servlet-class>
+  <init-param>
+  <param-name>jdbcDriver</param-name>
+  <param-value>oracle.jdbc.driver.OracleDriver,com.mysql.jdbc.Driver</param-value>
+  </init-param>
+  
+  <init-param>
+  <param-name>msg</param-name>
+  <param-value>Hello~ JSP~~</param-value>
+  
+  </init-param>
+  <load-on-startup>1</load-on-startup>
+  </servlet> -->
+  
+  <!-- 컨텍션 풀 드라이버 등록 -->
+  <servlet>
+	  <servlet-name>DBCPInit</servlet-name>
+	  <servlet-class>jdbc.DBCPInit</servlet-class>
+	  <load-on-startup>1</load-on-startup>
+  </servlet>
+  
+  
+  
+  
+  
+  
+  
+  <!-- 상태코드 에러메세지 출력 -->
   <error-page>
   <error-code>404</error-code>
   
