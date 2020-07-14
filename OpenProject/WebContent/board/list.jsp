@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ include file="/include/sessionCheck.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>INDEX</title>
+<title>게시판</title>
 
 <link rel="stylesheet" href="<%= request.getContextPath() %>/css/default.css">
 
@@ -14,13 +15,13 @@
 </head>
 <body>
 
-	<%@ include file="/WEB-INF/views/include/header.jsp" %>
+	<%@ include file="/include/header.jsp" %>
 
 	<div>
-		index
+		<h1>게시판</h1>
 	</div>
 
-	<%@ include file="/WEB-INF/views/include/footer.jsp" %>
+	<%@ include file="/include/footer.jsp" %>
 </body>
 </html>
 

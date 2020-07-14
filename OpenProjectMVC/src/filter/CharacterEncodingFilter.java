@@ -9,14 +9,14 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
-public class CharacterEncodingFilte implements Filter {
-
+public class CharacterEncodingFilter implements Filter {
+	
 	private String encodingType;
 
-	@Override // 초기화 메서드
+	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
 		
-		encodingType = filterConfig.getInitParameter("encoding"); // 파라미터값없으면 널 반환
+		encodingType = filterConfig.getInitParameter("encoding");
 		
 		if(encodingType == null) {
 			encodingType = "utf-8";
@@ -24,27 +24,25 @@ public class CharacterEncodingFilte implements Filter {
 		
 	}
 
-	
-	
-
 	@Override
-	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+	public void doFilter(
+			ServletRequest request, 
+			ServletResponse response, 
+			FilterChain chain)
 			throws IOException, ServletException {
 
-		request.setCharacterEncoding(encodingType); 
+		request.setCharacterEncoding(encodingType);
 		
 		chain.doFilter(request, response);
-		
-		
 		
 	}
 
 	
 	
-
 	@Override
 	public void destroy() {
 		// TODO Auto-generated method stub
 
 	}
+
 }

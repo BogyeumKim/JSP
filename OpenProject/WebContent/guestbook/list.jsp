@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>INDEX</title>
+<title>방명록</title>
 
 <link rel="stylesheet" href="<%= request.getContextPath() %>/css/default.css">
 
@@ -14,13 +14,13 @@
 </head>
 <body>
 
-	<%@ include file="/WEB-INF/views/include/header.jsp" %>
+	<%@ include file="/include/header.jsp" %>
 
 	<div>
-		index
+		<h1>방명록</h1>
 	</div>
 
-	<%@ include file="/WEB-INF/views/include/footer.jsp" %>
+	<%@ include file="/include/footer.jsp" %>
 </body>
 </html>
 

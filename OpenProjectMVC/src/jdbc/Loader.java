@@ -6,25 +6,21 @@ import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 
-public class Loader extends HttpServlet {
+public class Loader extends HttpServlet{
 
-	
 	@Override
 	public void init(ServletConfig config) throws ServletException {
-	
+
 		String jdbcDrivers = config.getInitParameter("jdbcDriver");
 		//System.out.println(jdbcDrivers);
 		
 		StringTokenizer st = new StringTokenizer(jdbcDrivers, ",");
-		
-		
-		String msg= config.getInitParameter("msg");
+		String msg = config.getInitParameter("msg");
 		System.out.println(msg);
 		
 		
 		try {
 			
-
 			while(st.hasMoreTokens()) {
 				
 				String driver = st.nextToken();
@@ -34,17 +30,17 @@ public class Loader extends HttpServlet {
 			}
 			
 			
-			
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			System.out.println("oracle Driver Load Fail !!!");
+			System.out.println("Driver Load Fail !!!!!!!!!");
 		}
 		
 		
+			
+		
 	}
 
-	
 	
 	
 }
